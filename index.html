@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High's fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(images/man-2604149_1280.jpg);
+        color: white;
+        font-family: 'Bricolage Grotesque', sans-serif;
+    }
+
+    .left {
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 90px;
+        margin: auto;
+    }
+
+    .left div {
+        line-height: 10px;
+        font-size: 16px;
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .right {
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 14px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Bricolage Grotesque', sans-serif;
+
+    }
+
+    .btn :hover {
+        background-color: rgb(255, 0, 0);
+    }
+
+    .container {
+        color: black;
+        position: relative;
+        width: 39%;
+        margin-top: 93px;
+        margin-left: auto;
+        padding: 90px 100px;
+        text-align: center;
+    }
+    .container .btn{
+        margin: 15px 100px;
+        padding: 5px 100px;
+    }
+
+    .form-group {
+        text-align: center;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        margin: 13px;
+        padding: 7;
+        line-height: 5px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/barbel-1799666_1280.png" alt="">
+            <div class="name">high's fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Submit for best offers now </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <strong>Name</strong><input type="text" name="" placeholder="enter now">
+            </div>
+            <div class="form-group">
+                <strong>Email</strong><input type="text" name="" placeholder="enter now">
+            </div>
+            <div class="form-group">
+                <strong>Number</strong><input type="text" name="" placeholder="enter now">
+            </div>
+        </form>
+        <button class="btn">
+            <strong>submit</strong>
+        </button>
+    </div>
+
+</body>
+
+</html>
